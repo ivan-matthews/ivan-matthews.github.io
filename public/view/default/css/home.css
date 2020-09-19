@@ -570,6 +570,11 @@ body.unscrollable nav.header-bar::-webkit-scrollbar {
 .sidebar-parent .sidebar-title:first-child {
   margin-top: 0;
 }
+@media (max-width: 991px) {
+  .sidebar-parent .sidebar-title {
+    margin-top: 0;
+  }
+}
 .sidebar-parent .sidebar {
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -742,8 +747,8 @@ body.unscrollable nav.header-bar::-webkit-scrollbar {
   font-weight: bold;
   font-size: 11px;
 }
-.user-profile .user-left-bar .user-avatar img {
-  max-width: 200px;
+.user-profile .user-left-bar .user-menu .list-group {
+  width: 240px;
 }
 .user-profile .user-left-bar .user-menu .list-group .list-group-item {
   padding: 0;

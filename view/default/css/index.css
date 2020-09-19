@@ -18,6 +18,18 @@ a:not([href]):hover {
   background: #245f9e;
   color: #fff;
 }
+.btn-success-light,
+.bg-success-light {
+  font-weight: bold;
+  background-color: #62ce6c;
+  border-color: #62ce6c;
+  color: #fff;
+}
+.btn-success-light:hover,
+.bg-success-light:hover {
+  opacity: 0.7;
+  color: #fff;
+}
 .chocolate-icon {
   color: chocolate;
 }
