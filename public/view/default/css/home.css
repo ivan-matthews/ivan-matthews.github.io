@@ -672,6 +672,33 @@ body.unscrollable nav.header-bar::-webkit-scrollbar {
   position: absolute;
   font-weight: 600;
 }
+.widget-header .before-content-title {
+  color: #FFFFFF;
+  background: #4a76a8;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.general-content.controller-home-index {
+  background: #edeef0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.general-content.controller-home-index .main-content {
+  margin-bottom: 0 !important;
+}
+.general-content.controller-home-index .before-content-widget-header {
+  display: block;
+  margin-top: 1em;
+}
+.general-content.controller-home-index .before-content-widget-header:first-child {
+  margin-top: 0;
+}
+.general-content.controller-home-index .before-content-widget-body {
+  background: #FFFFFF;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 .filter .filter-panel button.more {
   border: 1px solid #ced4da;
 }
@@ -1006,6 +1033,7 @@ body.unscrollable nav.header-bar::-webkit-scrollbar {
 }
 .user-profile .user-right-bar .photos-block .photos-block-body .photos-block-body-item a img {
   border: solid 1px rgba(0, 0, 0, 0.125);
+  max-width: 64px;
 }
 .user-profile .user-right-bar .photos-block .photos-block-body .block .block-icon {
   font-size: 24px;
@@ -1158,6 +1186,42 @@ body.unscrollable nav.header-bar::-webkit-scrollbar {
 .user-info-widget .body.search-panel .input-group input.form-control:focus {
   border: none;
   box-shadow: unset;
+}
+.before-content-widget-body .users-item .users-item-link .avatar {
+  position: relative;
+  width: 80px;
+}
+.before-content-widget-body .users-item .users-item-link .avatar img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+.before-content-widget-body .users-item .users-item-link .avatar .status {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  padding: 0 3px;
+}
+.before-content-widget-body .users-item .users-item-link .avatar .status-online i,
+.before-content-widget-body .users-item .users-item-link .avatar .status-online svg {
+  color: #28a745;
+}
+.before-content-widget-body .users-item .users-item-link .avatar .status-online i.circle,
+.before-content-widget-body .users-item .users-item-link .avatar .status-online svg.circle {
+  background: #28a745;
+  border: solid 2px #FFFFFF;
+}
+.before-content-widget-body .users-item .users-item-link .avatar .status-offline i,
+.before-content-widget-body .users-item .users-item-link .avatar .status-offline svg {
+  color: #dc3545;
+}
+.before-content-widget-body .users-item .users-item-link .avatar .status-offline i.circle,
+.before-content-widget-body .users-item .users-item-link .avatar .status-offline svg.circle {
+  background: #dc3545;
+  border: solid 2px #FFFFFF;
+}
+.before-content-widget-body .users-item .users-item-link .users-item-title {
+  font-weight: bold;
 }
 .form-auth div.form {
   font-size: 24px;
